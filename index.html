@@ -7,65 +7,89 @@
       <link rel="stylesheet" href="style.css">
     </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Latitude</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-    
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-               Plots
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Max Temperature</a>
-                <a class="dropdown-item" href="#">Humidity</a>
-                <a class="dropdown-item" href="#">Cloudiness</a>
-                <a class="dropdown-item" href="#">Wind Speed</a>
-              </div>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comparison</a>
-            </li>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Data</a>
-            </li>
-            
-        </div>
-      </nav>
+
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-fixed-top">
+    <a class="navbar-brand" href="#">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+           Plots
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="maxtemp.html">Max Temperature</a>
+            <a class="dropdown-item" href="humidity.html">Humidity</a>
+            <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
+            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+          </div>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="comparison.html">Comparison</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="data.html">Data</a>
+        </li>
+        
+    </div>
+  </nav>
 
 
-      <div class="container">
-        <div class="row">
-          <!--First Column in this Row-->
-          <div class="col-md-8">
-            <div class="box">
-              <header> Summary: Latitude vs. X </header>
-                <hr>
-                <img src="Fig1.png" align="left" width="40%">
-              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeather API to assemble a dataset of over 500 citiies.</p>
-              <p>After assembling the dataset, we used Matplotlibto plot various aspects of the weather vs. latitude. Factors we looked at included: temperature,cloudiness,humidity and wind speed. This site provide the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
-            </div>
-          </div>
-    
-          <!--Second Column in this Row-->
-          <div class="col-md-4">
-            <div class="box">
-              <header> Visualizations </header>
-              <hr>
-              <img src="Fig1.png" align="left" width="50%">
-              <img src="Fig2.png" align="right" width="50%">
-              <img src="Fig3.png" align="left" width="50%">
-              <img src="Fig4.png" align="right" width="50%">
-                </a>
-            </div>
-          </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <section class="summary">
+                <h1 id="sum-h1">Summary: Latitude vs. X</h1>
+                <hr class="hr-page"/>
+                <img id="sum-pic" src="Fig1.png" alt="City_Latitude_vs_Max_Temperature"/>
+                <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                <br/>
+                <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+            </section>
         </div>
 
+        <div class="col-md-4">
+            <section class="add-summary">
+                <h2 id="vis-h2">Visualizations</h2>
+                <hr class="hr-page"/>
+                <div class="div_vis_img">
+                     <a href="maxtemp.html"><img class="vis_img" src="Fig1.png" alt="City_Latitude_vs_Max_Temperature" align="left"/></a>
+                     <a href="humidity.html"><img class="vis_img" src="Fig2.png" alt="City_Latitude_vs_Humidity" align="right"/></a>
+                     <a href="cloudiness.html"><img class="vis_img" src="Fig3.png" alt="City_Latitude_vs_Cloudiness"align="left></a>
+                     <a href="windspeed.html"><img class="vis_img" src="Fig4.png" alt="City_Latitude_vs_Wind_Speed"></a>
+                </div>
+                
+            </section>
+
+        </div>
+    </div>
+</div>      
+
+
+                        
+ 
+
+
+     
+
+
+        
+<div class="footer navbar-fixed-bottom">
+
+        <div class="footer-top"></div>
+
+        <div class="container">
+            
+            <p class="footer-text">&copy Copyright Claude</p>
+        </div>
+</div>
+    
 
 
 
@@ -77,19 +101,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
