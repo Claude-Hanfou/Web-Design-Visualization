@@ -1,10 +1,19 @@
-.navbar {
-    background-color: teal
-    
-}
 
-.navbar .navbar-brand  {
-    color:white;
-    font-weight: bold
+.box {
+    height: 500px;
+    padding: 20px;
+    background: white;
+    margin-top: 80px;
+    margin-bottom:60px
+  }
 
+
+body {
+    background: lightgrey}
+
+header {
+
+    color: teal;
+    font-weight: bold;
+    font-size: 25px
 }
