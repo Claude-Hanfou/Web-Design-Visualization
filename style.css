@@ -71,10 +71,10 @@ body {
 
 
 .add-summary {
-    background-color: white;
+    background-color:white;
     width: 100%;
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 50px
     
 }
 #sum-pic {
@@ -125,12 +125,13 @@ body {
 }
 
 .vis_img {
-    width: 150px;
+    width: 140px;
     height: 150px;
     padding-right: 5px;
     margin-bottom: 10px;
     margin-right: 10px;
     margin-left: 15px;
+
    
 
 }
