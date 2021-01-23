@@ -108,7 +108,7 @@ body {
 
 #image {
 	width: 89%;
-    height: 60%;
+    height: 65%;
     text-align: center;
 	
   }
@@ -226,22 +226,24 @@ body {
     width: 80%;
 }
 .comp-h4 {
-    color: rgb(37, 175, 157);
+    color: teal;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
+    font-weight: bold;
 }
 .comp-h2 {
     color: rgb(37, 175, 157);
-    text-align: center;
+    text-align: left;
 }
 #comp-p {
     font-size: 16px;
-    text-align: center;
+    text-align: left;
 }
 .comp_img {
     margin-top: 10px;
     margin-bottom: 10px;
+    width:100%;
 }
 .comp_page {
     font-size: 18px;
@@ -255,3 +257,16 @@ body {
 .tab {
     margin-bottom: 60px;
 }
+
+.divbdy { 
+    background-color: white;
+    
+    
+
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: teal;
+    font-weight: bold;
+
