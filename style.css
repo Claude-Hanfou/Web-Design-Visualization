@@ -269,4 +269,7 @@ h1, h2, h3{
     font-family: Georgia, 'Times New Roman', Times, serif;
     color: teal;
     font-weight: bold;
+}
 
+#vis-border { border: lightseagreen 2px solid;
+}
