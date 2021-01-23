@@ -7,6 +7,14 @@ body {
     background-color: rgb(231, 227, 227);
     
 }
+
+.navbar-brand {
+    background-color: teal;
+    padding: 0.7em;
+    margin-left: 0em;
+
+}
+
 .footer{
     bottom: 0;
     height: 40px;
@@ -99,15 +107,16 @@ body {
 }
 
 #image {
-	width: 90%;
-	height: 58%;
+	width: 89%;
+    height: 60%;
+    text-align: center;
 	
   }
 
  
 
 .summary {
-    font-size: 18px;
+    font-size: 16px;
     font-family: "Helvetica Neue";
     color: gray;
     padding-left: 15px;
