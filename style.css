@@ -17,29 +17,6 @@ body {
 
 }
 
-.footer{
-    bottom: 0;
-    height: 40px;
-    width: 100%;
-    background-color: grey;
-    position: absolute;
-    margin-top: 20px;
-    }
-
-.footer-text {
-    font-size: 14px;
-    margin-top: 5px;
-    color: white;
-    text-align: center;
-
-}
-.footer-top {
-    height: 5px;
-    padding-top: 2px;
-    background-color: rgb(37, 175, 157);
-    width: 100%;
-}
-
 
 .data-city {
     background-color: white;
@@ -58,6 +35,7 @@ body {
  
 
 @media only screen and (max-width: 768px) {
+   
     .navbar-header {
         background-color: rgb(37, 175, 157);
     }
@@ -75,6 +53,7 @@ body {
     margin-bottom: 50px;
     
 }
+
 #sum-pic {
     float: left;
     width: 220px;
@@ -89,9 +68,6 @@ body {
 
 #image {
     width: 100%;
-    
-   
-	
   }
 
  
@@ -165,7 +141,6 @@ body {
 
 
 
-
 .chart_page {
     font-size: 18px;
     padding-left: 20px;
@@ -177,9 +152,6 @@ body {
     font-family: "Helvetica Neue";
     color: gray;
     
-
-
-
 
 
 
@@ -212,23 +184,17 @@ body {
    
     
 }
-.comp {
-    margin-bottom: 60px;
-    width: 80%;
-}
+
 .comp-h4 {
     color: teal;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 15px;
     font-weight: bold;
+    font-size: 20px;
 }
 .comp-h2 {
     color: rgb(37, 175, 157);
-    text-align: left;
-}
-#comp-p {
-    font-size: 16px;
     text-align: left;
 }
 .comp_img {
@@ -241,24 +207,37 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    background-color: rgb(245, 242, 239);
-    margin-bottom: 15px;
+    background-color:white;
+    margin-bottom: 100px;
+
 }
+
+
 
 .tab {
     margin-bottom: 60px;
 }
 
-.divbdy { 
-    background-color: white;
-    
-    
+
+.footer{
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    background-color: grey;
+    position: absolute;
+    margin-top: 20px;
+    }
+
+.footer-text {
+    font-size: 14px;
+    margin-top: 5px;
+    color: white;
+    text-align: center;
 
 }
-
-h1, h2, h3{
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: teal;
-    font-weight: bold;
+.footer-top {
+    height: 5px;
+    padding-top: 2px;
+    background-color: rgb(37, 175, 157);
+    width: 100%;
 }
-
