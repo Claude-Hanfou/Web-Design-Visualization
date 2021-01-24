@@ -18,14 +18,18 @@ An explanation of the project links to each visualizations page
 
 ### Viualization Pages:
 The plot/visualization itself for the selected comparisonand a paragrapg describing the plot and its significance
-![alt text](https://github.com/Claude-Hanfou/PyCityShools-Analysis/blob/main/Image/Scores%20by%20school%20Spending.PNG "Scores by School Spending")
+![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Visualisation%20lg.PNG "Visualization Page")
 
 ### Comparison Page:
 Contains all of the visualizations on the same page so we can easily visually compare them.
-![alt text](https://github.com/Claude-Hanfou/PyCityShools-Analysis/blob/main/Image/Scores%20by%20school%20Spending.PNG "Scores by School Spending")
+![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Comparison%20lg.PNG "Comparison Page")
 
 
 ### Data Page:
 Displays a responsive table containing the data used in the visualizations.
-![alt text](https://github.com/Claude-Hanfou/PyCityShools-Analysis/blob/main/Image/Scores%20by%20school%20Spending.PNG "Scores by School Spending")
+![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Data%20lg.PNG "Data Page")
+
+### Menu Page:
+Displays a menu with a dropdown that takes to the various visualizations pages
+![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Menu%20lg.PNG "Menu")
 
