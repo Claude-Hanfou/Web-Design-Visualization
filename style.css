@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: rgb(231, 227, 227);
+    background-color:  rgb(231, 227, 227);
     
 }
 
@@ -12,6 +12,8 @@ body {
     background-color: teal;
     padding: 0.7em;
     margin-left: 0em;
+    font-weight: bold;
+    font-family: "Times New Roman";
 
 }
 
@@ -86,9 +88,9 @@ body {
 
 
 #image {
-	width: 89%;
-    height: 65%;
+    width: 100%;
     text-align: center;
+   
 	
   }
 
@@ -146,8 +148,8 @@ body {
    
 
 }
-.vis_img:active {
-    border: 2px solid rgb(37, 175, 157);
+
+#vis-border { border: lightseagreen 2px solid;
 }
 
 
@@ -169,8 +171,16 @@ body {
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
-    background-color: rgb(245, 242, 239);
-    margin-bottom: 60px;
+    background-color:white;
+    margin-bottom: 10px;
+    margin-top: 50px;
+    
+
+
+
+
+
+
 }
 .page-h1 {
     color: rgb(37, 175, 157);
@@ -250,5 +260,3 @@ h1, h2, h3{
     font-weight: bold;
 }
 
-#vis-border { border: lightseagreen 2px solid;
-}
