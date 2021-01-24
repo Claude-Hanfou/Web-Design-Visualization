@@ -17,6 +17,10 @@ body {
 
 }
 
+nav{ 
+    position: fixed;
+    
+}
 
 .data-city {
     background-color: white;
@@ -35,7 +39,6 @@ body {
  
 
 @media only screen and (max-width: 768px) {
-   
     .navbar-header {
         background-color: rgb(37, 175, 157);
     }
@@ -81,7 +84,7 @@ body {
     padding-bottom: 40px;
     background-color: white;
     margin-top: 50px;
-    height: 600px;
+   
    
 }
 #sum-h1 {
@@ -153,10 +156,9 @@ body {
     color: gray;
     
 
-
-
 }
-.page-h1 {
+
+/*.page-h1 {
     color: rgb(37, 175, 157);
     font-size: 36px;
     margin-top: 20px;
@@ -165,9 +167,9 @@ body {
     padding-top: 10px;
     
     
-}
+}*/
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
     .page-h1 {
         font-size: 24px;
         margin-top: 10px;
@@ -175,7 +177,7 @@ body {
     }
   
   
-}
+}*/
 
 
 .hr-page {
