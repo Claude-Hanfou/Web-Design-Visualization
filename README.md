@@ -36,6 +36,7 @@ Displays a responsive table containing the data used in the visualizations.
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Data%20lg.PNG "Data Page")
 
 ### Menu Page:
+Displays a menu with a dropdown that takes to the various visualizations pages
 
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Menu%20lg.PNG "Menu")
 
