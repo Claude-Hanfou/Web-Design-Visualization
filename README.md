@@ -2,7 +2,7 @@
 
 ## Background
 Data is more powerful when we share it with others! This project uses HTML and CSS to create a dashboard showing off the analysis weather data
-### Webpage
+## Webpage
 The webpage can be viewd here https://claude-hanfou.github.io/Web-Design-Visualization/
 
 
