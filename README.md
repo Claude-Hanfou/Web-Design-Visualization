@@ -1,18 +1,18 @@
 ## Latitude Analysis Dashboard with Attitude: Web-Design
 
 ## Background
-Data is more powerful when we share it with others! This project uses HTML and CSS to create a dashboard showing off the analysis weather data
+Data is more powerful when we share it with others! This project uses HTML and CSS to create a dashboard showing off the analysis of weather data. The data retrieval and analysis are the same as that of this project  https://github.com/Claude-Hanfou/Python-API-Analysis, where we identify globally dispersed locations and the nearby cities to those locations using citipy API. Then, retrieve the weather information of those cities via OpenWeatherMap API. This weather data is later analysed to understand the impact of latitude on various aspects of the weather. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
+
 ## Webpage
 The webpage can be viewd here https://claude-hanfou.github.io/Web-Design-Visualization/
 
-
 ### Context 
-For this project we'll be creating a visualization dashboard website using visualizations using weather data.
+The purpose of this project was to analyze how weather changes as you get closer to the equator.
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this dashboard, we created individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Landing Page:
-An explanation of the project links to each visualizations page
+An explanation of the project, links to each visualization page
 
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Landing%20lg.PNG "Landing Page")
 
@@ -20,7 +20,7 @@ An explanation of the project links to each visualizations page
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Landing%20sm.PNG "Landing Page")
 
 ### Viualization Pages:
-The plot/visualization itself for the selected comparisonand a paragrapg describing the plot and its significance
+The plot/visualization itself for the selected comparison and a paragraph describing the plot and its significance
 
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Visualisation%20lg.PNG "Visualization Page")
 
