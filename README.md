@@ -1,7 +1,7 @@
 ## Latitude Analysis Dashboard with Attitude: Web-Design
 
 ## Background
-Data is more powerful when we share it with others! This project uses HTML and CSS to create a dashboard showing off the analysis of weather data. The data retrieval and analysis are the same as that of the https://github.com/Claude-Hanfou/Python-API-Analysis, where we identify globally dispersed locations and the nearby cities to those locations using citipy API. Then, retrieve the weather information of those cities via OpenWeatherMap API. This weather data is later analysed to understand the impact of latitude on various aspects of the weather. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
+Data is more powerful when we share it with others! This project uses HTML and CSS to create a dashboard showing off the analysis of weather data. The data retrieval and analysis are the same as that of the project [URL="https://github.com/Claude-Hanfou/Python-API-Analysis"]Project[/URL] https://github.com/Claude-Hanfou/Python-API-Analysis, where we identify globally dispersed locations and the nearby cities to those locations using citipy API. Then, retrieve the weather information of those cities via OpenWeatherMap API. This weather data is later analysed to understand the impact of latitude on various aspects of the weather. Factors we looked at included: temperature, cloudiness, wind speed, and humidity.
 
 ## Webpage
 The webpage can be viewd here https://claude-hanfou.github.io/Web-Design-Visualization/
