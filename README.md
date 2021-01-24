@@ -9,7 +9,7 @@ The webpage can be viewd here https://claude-hanfou.github.io/Web-Design-Visuali
 ### Context 
 The purpose of this project was to analyze how weather changes as you get closer to the equator.
 
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+In building this dashboard, we created individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Landing Page:
 An explanation of the project, links to each visualization page
@@ -20,7 +20,7 @@ An explanation of the project, links to each visualization page
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Landing%20sm.PNG "Landing Page")
 
 ### Viualization Pages:
-The plot/visualization itself for the selected comparisonand a paragrapg describing the plot and its significance
+The plot/visualization itself for the selected comparison and a paragraph describing the plot and its significance
 
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Visualisation%20lg.PNG "Visualization Page")
 
