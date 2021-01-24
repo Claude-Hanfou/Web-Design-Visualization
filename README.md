@@ -12,7 +12,7 @@ The purpose of this project was to analyze how weather changes as you get closer
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 ### Landing Page:
-An explanation of the project links to each visualizations page
+An explanation of the project, links to each visualization page
 
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Landing%20lg.PNG "Landing Page")
 
