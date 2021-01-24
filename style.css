@@ -28,11 +28,13 @@ body {
     margin-right: 20px;
 }
 
-
 .navbar-default {
     background-color: white;
 } 
  
+
+thead { background-color: rgb(54, 161, 161);}
+
 
 @media only screen and (max-width: 768px) {
     .navbar-header {
