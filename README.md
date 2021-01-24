@@ -13,7 +13,7 @@ In building this dashboard, we'll create individual pages for each plot and a me
 
 ### Landing Page:
 An explanation of the project links to each visualizations page
-![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization "Landing Page"
+![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Landing%20lg.PNG "Landing Page")
 
 
 ### Viualization Pages:
