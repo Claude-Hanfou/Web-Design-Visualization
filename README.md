@@ -16,6 +16,8 @@ An explanation of the project links to each visualizations page
 
 ![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Landing%20lg.PNG "Landing Page")
 
+##### Landing Page Small screen
+![alt text](https://github.com/Claude-Hanfou/Web-Design-Visualization/blob/main/Images/Landing%20sm.PNG "Landing Page")
 
 ### Viualization Pages:
 The plot/visualization itself for the selected comparisonand a paragrapg describing the plot and its significance
