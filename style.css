@@ -14,6 +14,7 @@ body {
     margin-left: 0em;
     font-weight: bold;
     font-family: "Times New Roman";
+    color: white;
 
 }
 
@@ -28,23 +29,35 @@ body {
     margin-right: 20px;
 }
 
-.navbar-default {
-    background-color: white;
-} 
  
 
 thead { background-color: rgb(54, 161, 161);}
 
 
 @media only screen and (max-width: 768px) {
-    .navbar-header {
-        background-color: rgb(37, 175, 157);
+    .bg-dark {
+        background-color:teal !important;
     }
-  
-  
-}
-
     
+ }
+
+
+
+
+ @media only screen and (max-width: 768px) {
+    .navbar-nav {
+        color:white;
+    }
+    
+ }
+
+ 
+
+ @media only screen and (max-width: 768px) {
+ .navbar-brand {
+     font-size: 24px;}
+ }
+
 
 
 .add-summary {
@@ -146,7 +159,7 @@ thead { background-color: rgb(54, 161, 161);}
     font-size: 18px;
     padding-left: 20px;
     padding-right: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 50px;
     background-color:white;
     margin-bottom: 10px;
     margin-top: 50px;
@@ -241,3 +254,6 @@ thead { background-color: rgb(54, 161, 161);}
     background-color: rgb(37, 175, 157);
     width: 100%;
 }
+
+
+
